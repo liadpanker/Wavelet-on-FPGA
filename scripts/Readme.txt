@@ -1,0 +1,3 @@
+fft_display.py is python code to display the fft result, please use read_fft.bash script to read the read pitaya memory pure into file, move the file to this folder and edit the python code to open that file.
+signal_generator.py file is used to generate base file script to write a signal into the memory of the read pitaya, input file should conation N lines that each line represent signal value between -1 to 1.
+parsh_data script used to parse the debug memory to present the signal that has been recorded to that memory.
