@@ -1,0 +1,49 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.762216",
+   "Default View_TopLeft":"914,-180",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_CLK -pg 1 -lvl 0 -x 0 -y 440 -defaultsOSRD
+preplace port port-id_denoise_lvl_1 -pg 1 -lvl 16 -x 1640 -y 220 -defaultsOSRD
+preplace port port-id_denoise_lvl_2 -pg 1 -lvl 16 -x 1640 -y 240 -defaultsOSRD
+preplace port port-id_reconsruct_lvl_2 -pg 1 -lvl 16 -x 1640 -y 260 -defaultsOSRD
+preplace portBus median_out -pg 1 -lvl 16 -x 1640 -y 100 -defaultsOSRD
+preplace portBus detail_level -pg 1 -lvl 0 -x 0 -y 90 -defaultsOSRD
+preplace portBus gpio_cfg -pg 1 -lvl 0 -x 0 -y 110 -defaultsOSRD
+preplace portBus gpio_cfg_2 -pg 1 -lvl 0 -x 0 -y 130 -defaultsOSRD
+preplace portBus threshold_detail_level -pg 1 -lvl 16 -x 1640 -y 80 -defaultsOSRD
+preplace portBus threshold_out_dbg -pg 1 -lvl 16 -x 1640 -y 120 -defaultsOSRD
+preplace portBus median_out1 -pg 1 -lvl 16 -x 1640 -y 740 -defaultsOSRD
+preplace portBus detail_level1 -pg 1 -lvl 0 -x 0 -y 790 -defaultsOSRD
+preplace portBus threshold_detail_level1 -pg 1 -lvl 16 -x 1640 -y 720 -defaultsOSRD
+preplace portBus threshold_out_dbg1 -pg 1 -lvl 16 -x 1640 -y 760 -defaultsOSRD
+preplace inst Universal -pg 1 -lvl 9 -x 1140 -y 140 -defaultsOSRD
+preplace inst tresholding_0 -pg 1 -lvl 8 -x 630 -y 170 -defaultsOSRD
+preplace inst tresholding_1 -pg 1 -lvl 8 -x 630 -y 810 -defaultsOSRD
+preplace netloc mult_gen_0_P 1 7 3 400 -20 850 -22 1280
+preplace netloc tresholding_0_universal_threshold_constant_level_1 1 8 1 N 140
+preplace netloc tresholding_0_window_len 1 8 1 N 180
+preplace netloc tresholding_0_window_len_valid 1 8 1 860 160n
+preplace netloc mult_gen_1_P 1 7 3 410 -10 870 -12 1270
+preplace netloc tresholding_1_universal_threshold_constant_level_2 1 8 1 890 200n
+preplace netloc axis_red_pitaya_adc_0_adc_clk 1 0 9 N 440 N 440 N 440 N 440 N 440 N 440 N 440 390 20 860
+preplace netloc tresholding_0_median_out 1 8 8 880 -2 1310 0 N 0 N 0 N 0 N 0 N 0 1620
+preplace netloc downsample_2_1_adc_data_out 1 0 8 NJ 90 NJ 90 NJ 90 NJ 90 NJ 90 NJ 90 NJ 90 380J
+preplace netloc axi_gpio_0_gpio_io_o 1 0 8 NJ 110 NJ 110 NJ 110 NJ 110 NJ 110 NJ 110 NJ 110 370
+preplace netloc axi_gpio_0_gpio2_io_o 1 0 8 NJ 130 NJ 130 NJ 130 NJ 130 NJ 130 NJ 130 NJ 130 360
+preplace netloc tresholding_0_threshold_detail_level 1 8 8 850J 8 1300 10 N 10 N 10 N 10 N 10 N 10 1610
+preplace netloc tresholding_0_threshold_out_dbg 1 8 8 870J 18 1290 20 N 20 N 20 N 20 N 20 N 20 1600
+preplace netloc tresholding_0_denoise_lvl_1 1 8 8 860J 260 1280 220 N 220 N 220 N 220 N 220 N 220 N
+preplace netloc tresholding_0_denoise_lvl_2 1 8 8 850J 250 N 250 N 250 N 250 N 250 N 250 N 250 1610
+preplace netloc tresholding_0_reconsruct_lvl_2 1 8 8 850J 270 1300 260 N 260 N 260 N 260 N 260 N 260 N
+preplace netloc tresholding_1_median_out 1 8 8 880 740 N 740 N 740 N 740 N 740 N 740 N 740 N
+preplace netloc downsample_2_3_adc_data_out 1 0 8 NJ 790 NJ 790 NJ 790 NJ 790 NJ 790 NJ 790 NJ 790 NJ
+preplace netloc tresholding_1_threshold_detail_level 1 8 8 NJ 720 N 720 N 720 N 720 N 720 N 720 N 720 N
+preplace netloc tresholding_1_threshold_out_dbg 1 8 8 NJ 760 N 760 N 760 N 760 N 760 N 760 N 760 N
+levelinfo -pg 1 0 40 90 140 190 240 290 340 630 1140 1330 1380 1430 1480 1530 1580 1640
+pagesize -pg 1 -db -bbox -sgen -170 -70 1880 1010
+"
+}
+

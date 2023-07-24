@@ -1,0 +1,31 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-532,-178",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_CLK -pg 1 -lvl 0 -x 0 -y 70 -defaultsOSRD
+preplace portBus adc_data_in -pg 1 -lvl 0 -x 0 -y 210 -defaultsOSRD
+preplace portBus S -pg 1 -lvl 4 -x 760 -y 130 -defaultsOSRD
+preplace portBus adc_data_in1 -pg 1 -lvl 0 -x 0 -y 50 -defaultsOSRD
+preplace inst upsample_2_1 -pg 1 -lvl 1 -x 200 -y 220 -defaultsOSRD
+preplace inst c_addsub_2 -pg 1 -lvl 2 -x 470 -y 70 -defaultsOSRD
+preplace inst c_addsub_3 -pg 1 -lvl 2 -x 470 -y 230 -defaultsOSRD
+preplace inst c_addsub_4 -pg 1 -lvl 3 -x 650 -y 130 -defaultsOSRD
+preplace inst upsample_2_0 -pg 1 -lvl 1 -x 200 -y 60 -defaultsOSRD
+preplace netloc upsample_2_1_adc_data_0_out 1 1 1 N 210
+preplace netloc upsample_2_1_adc_data_1_out 1 1 1 N 230
+preplace netloc upsample_2_0_adc_data_0_out 1 1 1 N 50
+preplace netloc upsample_2_0_adc_data_1_out 1 1 1 N 70
+preplace netloc c_addsub_2_S 1 2 1 560 70n
+preplace netloc c_addsub_3_S 1 2 1 560 130n
+preplace netloc glb_hot_mux_0_out 1 0 1 NJ 210
+preplace netloc axis_red_pitaya_adc_0_adc_clk 1 0 3 20 130 370 150 N
+preplace netloc c_addsub_4_S 1 3 1 N 130
+preplace netloc delay_handler_0_lowpass_lvl_1_to_lvl_final_out 1 0 1 NJ 50
+levelinfo -pg 1 0 200 470 650 760
+pagesize -pg 1 -db -bbox -sgen -180 -10 860 310
+"
+}
+

@@ -1,0 +1,74 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.13546",
+   "Default View_TopLeft":"92,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port M_AXIS_OUT_1 -pg 1 -lvl 4 -x 1710 -y 250 -defaultsOSRD
+preplace port port-id_s_axis_aresetn -pg 1 -lvl 0 -x -30 -y 180 -defaultsOSRD
+preplace port port-id_aclk -pg 1 -lvl 0 -x -30 -y 470 -defaultsOSRD
+preplace port port-id_fifo_valid -pg 1 -lvl 0 -x -30 -y 150 -defaultsOSRD
+preplace port port-id_fifo_ready -pg 1 -lvl 4 -x 1710 -y 20 -defaultsOSRD
+preplace port port-id_ft_en -pg 1 -lvl 4 -x 1710 -y 350 -defaultsOSRD
+preplace port port-id_adc_or_dac -pg 1 -lvl 4 -x 1710 -y 410 -defaultsOSRD
+preplace portBus s_axis_tdata -pg 1 -lvl 0 -x -30 -y 120 -defaultsOSRD
+preplace portBus gpio_4 -pg 1 -lvl 0 -x -30 -y 770 -defaultsOSRD
+preplace portBus gpio_5 -pg 1 -lvl 4 -x 1710 -y 320 -defaultsOSRD
+preplace portBus sample_frequency -pg 1 -lvl 4 -x 1710 -y 380 -defaultsOSRD
+preplace portBus debug_fft_out -pg 1 -lvl 4 -x 1710 -y 440 -defaultsOSRD
+preplace portBus debug_fifo_wr_rd -pg 1 -lvl 4 -x 1710 -y 470 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 2 -x 730 -y 150 -defaultsOSRD
+preplace inst floating_point_3 -pg 1 -lvl 1 -x 250 -y 880 -defaultsOSRD
+preplace inst floating_point_4 -pg 1 -lvl 2 -x 730 -y 680 -defaultsOSRD
+preplace inst xfft_0 -pg 1 -lvl 2 -x 730 -y 460 -defaultsOSRD
+preplace inst floating_point_0 -pg 1 -lvl 1 -x 250 -y 430 -defaultsOSRD
+preplace inst floating_point_2 -pg 1 -lvl 1 -x 250 -y 680 -defaultsOSRD
+preplace inst ft_controller_0 -pg 1 -lvl 3 -x 1320 -y 300 -defaultsOSRD
+preplace netloc Net 1 0 3 NJ 150 440 310 950J
+preplace netloc adc_sample_2_0_S_AXIS_OUT_tdata_0 1 0 2 NJ 120 NJ
+preplace netloc axi_gpio_2_gpio_io_o 1 0 3 -10J 320 NJ 320 930J
+preplace netloc axis_data_fifo_0_axis_rd_data_count 1 2 1 980 180n
+preplace netloc axis_data_fifo_0_axis_wr_data_count 1 2 1 1000 160n
+preplace netloc axis_data_fifo_0_m_axis_tdata 1 2 1 1020 100n
+preplace netloc axis_data_fifo_0_m_axis_tvalid 1 2 1 1000 130n
+preplace netloc axis_data_fifo_0_prog_empty 1 2 1 960 200n
+preplace netloc axis_data_fifo_0_prog_full 1 2 1 970 220n
+preplace netloc axis_data_fifo_0_s_axis_tready 1 1 3 480 280 1010 30 1590J
+preplace netloc axis_red_pitaya_adc_0_adc_clk 1 0 3 0 340 460 290 950
+preplace netloc floating_point_0_m_axis_result_tdata 1 1 1 440 420n
+preplace netloc floating_point_0_m_axis_result_tvalid 1 1 2 440 780 1040
+preplace netloc ft_controller_0_M_AXIS_OUT_tdata_0 1 0 4 10 790 NJ 790 NJ 790 1590
+preplace netloc ft_controller_0_M_AXIS_OUT_tvalid_0 1 0 4 20 800 450J 820 NJ 820 1600
+preplace netloc ft_controller_0_S_AXIS_IN_tready_0 1 2 1 1020 120n
+preplace netloc ft_controller_0_adc_or_dac 1 3 1 1650J 410n
+preplace netloc ft_controller_0_debug_fft_out 1 3 1 1660J 440n
+preplace netloc ft_controller_0_debug_fifo_wr_rd 1 3 1 1670J 470n
+preplace netloc ft_controller_0_ft_en 1 3 1 1630J 350n
+preplace netloc ft_controller_0_gpio_5 1 3 1 1620J 320n
+preplace netloc ft_controller_0_sample_frequency 1 3 1 1640J 380n
+preplace netloc rst_ps7_0_125M_peripheral_aresetn 1 0 2 NJ 180 NJ
+preplace netloc xfft_0_event_data_in_channel_halt 1 2 1 1020 470n
+preplace netloc xfft_0_event_data_out_channel_halt 1 2 1 1030 490n
+preplace netloc xfft_0_event_fft_overflow 1 2 1 1000 430n
+preplace netloc xfft_0_event_frame_started 1 2 1 950 370n
+preplace netloc xfft_0_event_status_channel_halt 1 2 1 1010 450n
+preplace netloc xfft_0_event_tlast_missing 1 2 1 970 410n
+preplace netloc xfft_0_event_tlast_unexpected 1 2 1 960 390n
+preplace netloc xfft_0_s_axis_data_tready 1 1 3 490 800 NJ 800 1580
+preplace netloc ft_controller_0_M_AXIS_OUT_tlast_0 1 1 3 480 810 NJ 810 1610
+preplace netloc floating_point_2_M_AXIS_RESULT 1 1 1 450 660n
+preplace netloc floating_point_3_M_AXIS_RESULT 1 1 1 470 680n
+preplace netloc floating_point_4_M_AXIS_RESULT 1 2 1 990 190n
+preplace netloc ft_controller_0_M_AXIS_CONFIG_0 1 1 3 470 10 NJ 10 1580
+preplace netloc ft_controller_0_M_AXIS_OUT_1 1 3 1 1640J 250n
+preplace netloc ft_controller_0_M_AXIS_OUT_img_1 1 0 4 30 20 NJ 20 NJ 20 1550
+preplace netloc ft_controller_0_M_AXIS_OUT_img_2 1 0 4 40 600 NJ 600 NJ 600 1570
+preplace netloc ft_controller_0_M_AXIS_OUT_real_1 1 0 4 30 760 NJ 760 NJ 760 1560
+preplace netloc ft_controller_0_M_AXIS_OUT_real_2 1 0 4 40 770 NJ 770 NJ 770 1550
+preplace netloc xfft_0_M_AXIS_DATA 1 2 1 940 170n
+levelinfo -pg 1 -30 250 730 1320 1710
+pagesize -pg 1 -db -bbox -sgen -190 0 1910 960
+"
+}
+0
